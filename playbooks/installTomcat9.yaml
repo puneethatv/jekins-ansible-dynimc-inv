@@ -1,4 +1,4 @@
-- hosts: dynamicinventorytomcatserver
+- hosts: terraformtomcatservers
   become: true
   tasks:
     - name: Install Java
