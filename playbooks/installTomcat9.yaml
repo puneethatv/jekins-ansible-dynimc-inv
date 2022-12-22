@@ -1,4 +1,4 @@
-- hosts: dynamic-tomcat
+- hosts: tomcatservers
   become: true
   tasks:
     - name: Install Java
