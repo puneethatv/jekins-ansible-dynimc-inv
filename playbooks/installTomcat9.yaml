@@ -1,4 +1,4 @@
-- hosts: tomcatservers
+- hosts: dynamicinventorytomcatserver
   become: true
   tasks:
     - name: Install Java
